@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Password Generator</h1>
+        <div class="generated-password">CLICK GENERATE</div>
+        <div class="password-length">
+            <span>
+                    <p class="length">LENGTH!</p> 
+                    <p class="value">
+                        MIN:4 - MAX:32
+                    </p>
+            </span>
+            <div class="set-length">
+                <input type="number" class="input-number" min="4" max="32" placeholder="Set length" value="4">
+            </div>
+        </div>
+        <div class="password-settings">
+            <p class="settings">SETTINGS</p>
+            <div class="uppercase">
+                <p>Include <span class="specific-setting">Uppercase</span> </p>
+
+                <label class="toggle" for="myToggle">
+                    <input class="toggle__input" value="no" type="checkbox" name="" id="myToggle">
+                    <div class="toggle__fill"></div>
+               </label>
+
+            </div>
+            <div class="lowercase">
+                <p>Include <span class="specific-setting">Lowercase</span></p>
+
+                <label class="toggle2" for="myToggle2">
+                    <input class="toggle__input2" value="no" type="checkbox" name="" id="myToggle2">
+                    <div class="toggle__fill2"></div>
+               </label>
+            </div>
+            <div class="numbers">
+                <p>Include <span class="specific-setting">Numbers</span></p>
+                <label class="toggle3" for="myToggle3">
+                    <input class="toggle__input3" value="no" type="checkbox" name="" id="myToggle3">
+                    <div class="toggle__fill3"></div>
+               </label>
+            </div>
+            <div class="symbols">
+                <p>Include <span class="specific-setting">Symbols</span></p>
+                <label class="toggle4" for="myToggle4">
+                    <input class="toggle__input4" value="no" type="checkbox" name="" id="myToggle4">
+                    <div class="toggle__fill4"></div>
+               </label>
+            </div>
+        </div>
+        <div class="btn">
+            <button class="btn-generate">Generate Password</button>
+        </div>
+    </div>
+</body>
+</html>

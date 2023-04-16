@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 16px;
+}
+
+
+body
+{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(40, 120, 190);
+}
+
+
+.container
+{
+    color: white;
+    background-color: rgb(13, 7, 70);
+    min-height: 600px;
+    width: 400px;
+    border-radius: 20px;
+    padding: 1rem;
+    -webkit-box-shadow: 3px 10px 41px -10px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 3px 10px 41px -10px rgba(66, 68, 90, 1);
+    box-shadow: 3px 10px 41px -10px rgba(66, 68, 90, 1);
+}
+
+h1
+{
+    font-size: 2rem;
+    padding: 2rem 0rem;
+}
+
+.generated-password
+{
+    background-color: rgb(22, 13, 99);
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0rem;
+    letter-spacing: 2px;
+}
+
+.set-length
+{
+    height: 50px;
+    background-color: rgb(22, 13, 99);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.length, .value
+{
+    font-size: 12px;
+}
+.value{
+    font-weight: 700;
+    padding: 0rem 0.5rem;
+}
+
+.password-length span
+{
+    display: flex;
+    font-size: 12px;
+    padding: 0.2rem 1rem;
+}
+
+.set-length
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 1rem;
+}
+
+.set-length input
+{
+    background-color: inherit;
+    outline: none;
+    border: none;
+    width: 50%;
+    padding: 0.5rem 1rem;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.line-through
+{
+    width: 80%;
+    height: 3px;
+    background-color: white;
+}
+
+.uppercase, .lowercase, .numbers, .symbols
+{
+    height: 50px;
+    background-color: rgb(22, 13, 99);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0.5rem 0rem;
+}
+
+.password-settings p
+{
+    margin: 0rem 1rem;
+}
+
+.settings
+{
+    font-size: 12px;
+    padding: 1rem 0rem 0rem 0rem;
+}
+
+.btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem;
+}
+
+button
+{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 2px;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #5f63b7, #5e60c6, #5f5cd4, #6258e1, #6652ee);
+    transition: 0.3s;
+}
+
+button:hover
+{
+    opacity: 0.8;
+}
+
+.specific-setting
+{
+    font-weight: 700;
+}
+
+.toggle, .toggle2, .toggle3, .toggle4 {
+    --width: 50px;
+    --height: calc(var(--width) / 2);
+    --border-radius: calc(var(--height) / 2);
+    padding-right: 0.5rem;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .toggle__input,.toggle__input2, .toggle__input3, .toggle__input4  {
+    display: none;
+  }
+  
+  .toggle__fill, .toggle__fill2, .toggle__fill3, .toggle__fill4 {
+    position: relative;
+    width: var(--width);
+    height: var(--height);
+    border-radius: var(--border-radius);
+    background: #dddddd;
+    transition: background 0.2s;
+  }
+  
+  .toggle__input:checked ~ .toggle__fill {
+    background: rgb(13, 7, 70);
+  }
+  
+  .toggle__fill::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: var(--height);
+    width: var(--height);
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border-radius: var(--border-radius);
+    transition: transform 0.2s;
+  }
+  
+  .toggle__input:checked ~ .toggle__fill::after {
+    transform: translateX(var(--height));
+  }
+  
+
+
+
+.toggle__fill2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: var(--height);
+    width: var(--height);
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border-radius: var(--border-radius);
+    transition: transform 0.2s;
+  }
+
+    
+.toggle__input2:checked ~ .toggle__fill2 {
+    background: rgb(13, 7, 70);
+  }
+
+  .toggle__input2:checked ~ .toggle__fill2::after {
+    transform: translateX(var(--height));
+  }
+
+
+  .toggle__fill3::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: var(--height);
+    width: var(--height);
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border-radius: var(--border-radius);
+    transition: transform 0.2s;
+  }
+
+    
+.toggle__input3:checked ~ .toggle__fill3 {
+    background: rgb(13, 7, 70);
+  }
+
+  .toggle__input3:checked ~ .toggle__fill3::after {
+    transform: translateX(var(--height));
+  }
+
+  .toggle__fill4::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: var(--height);
+    width: var(--height);
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border-radius: var(--border-radius);
+    transition: transform 0.2s;
+  }
+
+    
+.toggle__input4:checked ~ .toggle__fill4 {
+    background: rgb(13, 7, 70);
+  }
+
+  .toggle__input4:checked ~ .toggle__fill4::after {
+    transform: translateX(var(--height));
+  }
