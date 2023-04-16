@@ -2,7 +2,7 @@
 Prosta aplikacja służąca do generowania losowych haseł.
 
 **Demo** <br>
-Aby zobaczyć działanie aplikacji, możesz odwiedzić stronę https://lanchesterr.github.io/Passwrod-Generator-App/.
+Aby zobaczyć działanie aplikacji, możesz odwiedzić stronę https://lanchesterr.github.io/Password-Generator-App/
 
 **Instrukcja instalacji i uruchomienia** <br>
 Aby zainstalować i uruchomić aplikację na swoim komputerze, należy postępować zgodnie z poniższymi krokami:<br>
