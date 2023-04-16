@@ -1,20 +1,20 @@
-Password Generator App
+**Password Generator App** <br>
 Prosta aplikacja służąca do generowania losowych haseł.
 
-Demo
+**Demo** <br>
 Aby zobaczyć działanie aplikacji, możesz odwiedzić stronę https://lanchesterr.github.io/Passwrod-Generator-App/.
 
-Instrukcja instalacji i uruchomienia
-Aby zainstalować i uruchomić aplikację na swoim komputerze, należy postępować zgodnie z poniższymi krokami:
+**Instrukcja instalacji i uruchomienia** <br>
+Aby zainstalować i uruchomić aplikację na swoim komputerze, należy postępować zgodnie z poniższymi krokami:<br>
 
-Pobierz repozytorium z aplikacją.
-Otwórz plik index.html w swojej przeglądarce internetowej.
-Przykłady użycia
+1. Pobierz repozytorium z aplikacją. <br>
+2. Otwórz plik index.html w swojej przeglądarce internetowej.<br> <br>
+**Przykłady użycia** <br>
 Po uruchomieniu aplikacji możesz wybrać rodzaj hasła, które chcesz wygenerować, a następnie określić długość hasła. Kliknij przycisk "Generate Password",aby wygenerować nowe hasło.
 
-Zależności
+**Zależności** <br>
 Aplikacja nie wymaga instalacji dodatkowych zależności.
 
-Autorzy
+**Autorzy** <br>
 Aplikacja została stworzona przez Hubert Koza.
 
